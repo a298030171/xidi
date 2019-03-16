@@ -41,8 +41,8 @@ app.set('port', port);
 
 var server = http.createServer(app);
 
-const io = require("socket.io").listen(server)
-module.exports = io;
+// const io = require("socket.io").listen(server)
+// module.exports = io;
 /**
  * Listen on provided port, on all network interfaces.
  */
