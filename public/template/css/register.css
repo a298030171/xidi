@@ -1,0 +1,54 @@
+.margin{width: 996px;margin: 0 auto;}
+
+#header{height: 60px;background: #4e4e4e;}
+#header .logo{float: left;height: 60px;display: flex;align-items: center;padding:0 12px;}
+#header .header-r{float: right;font: 12px/60px "";}
+#header .header-r p{color: #c5c5c5;}
+#header .header-r p a{color: #c5c5c5;}
+
+#register-cont{width: 360px;margin: 50px auto 0;padding: 0 80px;}
+#register-cont .register{}
+#register-cont .register h1{text-align: center;font: 24px/24px "";margin-bottom: 27px;}
+#register-cont .register .reg-type{margin-bottom: 11px;font: 12px/12px "";text-align: right;}
+#register-cont .register .reg-type a{color: #4a82b1;}
+
+#register-cont .register .form{}
+#register-cont .register .form .error{position: absolute;right: -210px;width: 200px;top: 0;font: 12px/50px "";}
+#register-cont .register .form input{border:1px solid #ddd;padding: 13px 9px 11px 13px;box-sizing: border-box;height: 50px;}
+#register-cont .register .form input#tel{width: 100%;}
+#register-cont .register .form input#pass{width: 100%;}
+#register-cont .register .form input#imgyz{width: 154px;float: left;}
+#register-cont .register .form input#msgyz{width: 154px;float: left;}
+
+#register-cont .register .form .pass{position: relative;margin-top: 20px;}
+#register-cont .register .form .tel{position: relative;}
+#register-cont .register .form .msg{margin-top: 20px;position: relative;}
+#register-cont .register .form .msg .getyz{float: right;width: 168px;height: 48px;border: 1px solid #ddd;text-align: center;font: 14px/48px "";cursor: pointer;}
+
+#register-cont .register .form .pic{margin-top: 20px;position: relative;}
+#register-cont .register .form .pic .pic-r{float: right;padding: 9px 0;}
+#register-cont .register .form .pic .pic-r img{height: 32px;}
+#register-cont .register .form .pic .pic-r a{color: #4a82b1;margin-left: 22px;display: block;float: right;height: 32px;font: 12px/32px "";}
+
+
+
+#register-cont .register .reg-btn{margin:30px 0  20px 0;}
+#register-cont .register .reg-btn .btn{height: 50px;background: #4ed6d1;display: block;font: 18px/50px "";color: #fff;text-align: center;cursor: pointer;border-radius: 8px;}
+
+
+#register-cont .register .reg-more{}
+#register-cont .register .reg-more .third{float: left;}
+#register-cont .register .reg-more .third a{width: 40px;height: 40px;display: block;float: left;background: url(https://static.xidibuy.com/static/passport/images/1.0.0/loginSignup-icon.png);margin-right: 20px;}
+#register-cont .register .reg-more .third a.wb{background-position: -80px 0;}
+#register-cont .register .reg-more .third a.wx{background-position: -160px 0;}
+
+#register-cont .register .reg-more .tologin{float: right;font: 12px/22px "";color: #777;text-align: right}
+#register-cont .register .reg-more .tologin a{color: #4a82b1;}
+
+#footer{margin: 40px auto 0;width: 350px;height: 45px;text-align: center;color: rgb(32, 25, 25);}
+#footer .footer-t{}
+#footer .footer-t a{padding: 0 14px;border-right: 1px solid #c5c5c5;font: 12px/12px "";color: #777;}
+#footer .footer-t a:last-child{border: none;}
+#footer .footer-b{margin-top: 20px;font: 12px/12px "";}
+#footer .footer-b p{float: left;}
+#footer .footer-b p:last-child{float: right;}

@@ -1,0 +1,200 @@
+#main .car-wrap {
+  width: 996px;
+  margin: 20px auto; }
+  #main .car-wrap .car-local {
+    height: 34px;
+    font: 12px/34px ""; }
+    #main .car-wrap .car-local p {
+      float: left; }
+    #main .car-wrap .car-local .cities {
+      float: left;
+      width: 60px;
+      height: 32px;
+      border: 1px solid #ddd;
+      padding: 0 28px 0 10px;
+      font: 12px/32px "";
+      cursor: pointer; }
+    #main .car-wrap .car-local span {
+      float: left;
+      margin-left: 20px;
+      color: #ff7765; }
+    #main .car-wrap .car-local a {
+      float: right;
+      color: #4a82b1; }
+  #main .car-wrap .car-th {
+    margin-top: 15px;
+    background: #f3f3f3;
+    height: 44px;
+    font: 12px/44px "";
+    text-align: center; }
+    #main .car-wrap .car-th p {
+      float: left; }
+    #main .car-wrap .car-th .check {
+      width: 159px;
+      text-align: left;
+      box-sizing: border-box; }
+      #main .car-wrap .car-th .check i {
+        display: block;
+        float: left;
+        width: 16px;
+        height: 16px;
+        background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -74px -250px;
+        margin: 14px 10px 0 15px; }
+    #main .car-wrap .car-th .check.checked i {
+      background-position: -108px -250px; }
+    #main .car-wrap .car-th .goods {
+      width: 267px;
+      text-align: left; }
+    #main .car-wrap .car-th .price {
+      width: 95px; }
+    #main .car-wrap .car-th .num {
+      width: 135px; }
+    #main .car-wrap .car-th .weight {
+      width: 80px; }
+    #main .car-wrap .car-th .allprice {
+      width: 140px; }
+    #main .car-wrap .car-th .del {
+      width: 120px; }
+  #main .car-wrap .car-goods {
+    margin-top: 25px; }
+    #main .car-wrap .car-goods ul li .top {
+      font: 12px/26px "";
+      height: 26px; }
+      #main .car-wrap .car-goods ul li .top i {
+        display: block;
+        float: left;
+        width: 16px;
+        height: 16px;
+        background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -108px -250px;
+        margin: 5px 10px 0 15px; }
+      #main .car-wrap .car-goods ul li .top .name {
+        color: #4a82b1;
+        float: left; }
+      #main .car-wrap .car-goods ul li .top .chat {
+        width: 16px;
+        height: 15px;
+        margin-left: 10px;
+        background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -699px -200px;
+        float: left;
+        display: block;
+        margin-top: 5px; }
+    #main .car-wrap .car-goods ul li .tbody {
+      padding: 20px 15px;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      background: #f3fbfa;
+      margin-top: 10px;
+      text-align: center;
+      font: 13px/20px ""; }
+      #main .car-wrap .car-goods ul li .tbody .check {
+        float: left;
+        width: 144px; }
+        #main .car-wrap .car-goods ul li .tbody .check i {
+          display: block;
+          float: left;
+          width: 16px;
+          height: 16px;
+          background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -74px -250px;
+          margin: 32px 10px 0 0; }
+        #main .car-wrap .car-goods ul li .tbody .check img {
+          height: 80px; }
+      #main .car-wrap .car-goods ul li .tbody .check.checked i {
+        background-position: -108px -250px; }
+      #main .car-wrap .car-goods ul li .tbody .goods {
+        float: left;
+        width: 267px;
+        text-align: left; }
+      #main .car-wrap .car-goods ul li .tbody .price {
+        float: left;
+        width: 95px; }
+      #main .car-wrap .car-goods ul li .tbody .num {
+        float: left;
+        width: 135px;
+        position: relative; }
+        #main .car-wrap .car-goods ul li .tbody .num input {
+          width: 37px;
+          height: 22px;
+          border: 1px solid #ddd;
+          border-right: 0;
+          border-left: 0;
+          text-align: center; }
+        #main .car-wrap .car-goods ul li .tbody .num a {
+          position: absolute;
+          width: 22px;
+          height: 22px;
+          border: 1px solid #ddd;
+          top: 0; }
+        #main .car-wrap .car-goods ul li .tbody .num a:first-child {
+          left: 25px; }
+        #main .car-wrap .car-goods ul li .tbody .num a:last-child {
+          right: 25px; }
+        #main .car-wrap .car-goods ul li .tbody .num a::before {
+          content: "";
+          width: 10px;
+          height: 2px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin-top: -1px;
+          margin-left: -5px;
+          background: #c5c5c5; }
+        #main .car-wrap .car-goods ul li .tbody .num a:last-child::after {
+          content: "";
+          width: 2px;
+          height: 10px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin-top: -5px;
+          margin-left: -1px;
+          background: #c5c5c5; }
+      #main .car-wrap .car-goods ul li .tbody .weight {
+        float: left;
+        width: 80px; }
+      #main .car-wrap .car-goods ul li .tbody .allprice {
+        float: left;
+        width: 140px; }
+      #main .car-wrap .car-goods ul li .tbody .del {
+        float: left;
+        width: 105px; }
+      #main .car-wrap .car-goods ul li .tbody .del a {
+        cursor: pointer; }
+  #main .car-wrap .car-finish {
+    margin-top: 40px;
+    border: 1px solid #ddd;
+    height: 63px;
+    font: 13px/63px ""; }
+    #main .car-wrap .car-finish .check {
+      width: 260px;
+      float: left; }
+      #main .car-wrap .car-finish .check i {
+        display: block;
+        float: left;
+        width: 16px;
+        height: 16px;
+        background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -74px -250px;
+        margin: 25px 10px 0 15px; }
+    #main .car-wrap .car-finish .check.checked i {
+      background-position: -108px -250px; }
+    #main .car-wrap .car-finish .info {
+      width: 580px;
+      height: 100%;
+      float: left; }
+      #main .car-wrap .car-finish .info .info-price {
+        float: right;
+        display: flex; }
+        #main .car-wrap .car-finish .info .info-price span {
+          font-size: 20px;
+          color: #00bebf; }
+    #main .car-wrap .car-finish .btn {
+      width: 140px;
+      float: right;
+      text-align: center; }
+      #main .car-wrap .car-finish .btn a {
+        color: #fff;
+        background: #00bebf;
+        display: block;
+        font: 20px/65px "";
+        position: relative;
+        top: -1px;
+        right: -1px; }

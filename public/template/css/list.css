@@ -1,0 +1,37 @@
+#header .nav .nav-l .nav-slide-box{display: none;}
+#header .nav .nav-l:hover .nav-slide-box{display: block;}
+
+
+#list-cont{border-top: 1px solid #ddd;}
+#list-cont .list-pos{margin: 20px 0 10px 0;}
+#list-cont .list-pos a{margin:0 10px 10px 0;color: #222;float: left;}
+#list-cont .list-pos span{margin:0 10px 10px 0;float: left;}
+#list-cont .list-pos i{margin:0 10px 10px 0;position: relative;width: 10px;height: 24px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/icons.png) 0 -270px;display: block;float: left;top: -3px;z-index:-1;}
+
+#list-cont .list-filter{border: 1px solid #ddd;margin-bottom: 15px;padding: 20px 0 10px 25px;}
+#list-cont .list-filter dl{font: 13px/23px "";}
+#list-cont .list-filter dl dt{float: left;margin-right: 40px;}
+#list-cont .list-filter dl dd{float: left;margin: 0 20px 10px 0;}
+#list-cont .list-filter dl dd a{padding: 0 10px;display: block;border: 1px solid transparent;color: #222;}
+#list-cont .list-filter dl dd a:hover{border: 1px solid #ccc;}
+
+#list-cont .list-sort{margin: 20px 0 ;}
+#list-cont .list-sort a{padding: 0 10px;margin-right: 15px;border: 1px solid transparent;font: 12px/24px "";color: #222;display: block;float: left;}
+#list-cont .list-sort a.select{border: 1px solid #ddd;}
+#list-cont .list-sort a:hover{border: 1px solid #ddd;}
+
+#list-cont .list-goods{}
+#list-cont .list-goods ul{margin:-25px 0 0 -25px;padding-top: 10px;}
+#list-cont .list-goods ul li{float: left;margin: 25px 0 0 25px;width: 222px;}
+#list-cont .list-goods ul li .pic{width: 222px;height: 222px;}
+#list-cont .list-goods ul li .pic a{display: block;cursor: pointer;}
+#list-cont .list-goods ul li .pic a img{width: 100%;height: 100%;}
+#list-cont .list-goods ul li .article{padding: 10px 0 15px 0;}
+#list-cont .list-goods ul li .article .title{margin: 0 8px;}
+#list-cont .list-goods ul li .article .title h4{font: 13px/24px "";height: 48px;overflow: hidden;}
+#list-cont .list-goods ul li .article .title h4 a{color: #222;cursor: pointer;}
+#list-cont .list-goods ul li .article .price{margin: 10px 8px 0;}
+#list-cont .list-goods ul li .article .price span{color: #00bebf;font: 18px/18px "";}
+#list-cont .list-goods ul li .article .flag{margin: 15px 8px 0;}
+#list-cont .list-goods ul li .article .flag img{width: 20px;height: 14px;margin-right: 8px;float: left;}
+#list-cont .list-goods ul li .article .flag span{float: left;font: 12px/14px "";color: #777;}

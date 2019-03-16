@@ -1,0 +1,102 @@
+
+#main{
+    .car-wrap{
+        width: 996px;margin: 20px auto;
+        .car-local{
+            height: 34px;font:12px/34px "";
+            p{float: left;}
+            .cities{float: left;width: 60px;height: 32px;border: 1px solid #ddd;padding: 0 28px 0 10px;font: 12px/32px "";cursor: pointer;}
+            span{float: left;margin-left: 20px;color: #ff7765;}
+            a{float: right;color: #4a82b1;}
+        }
+        .car-th{
+            margin-top: 15px;background:#f3f3f3;height:44px;font:12px/44px "";text-align:center;
+            p{float: left;}
+            .check{
+                width: 159px;text-align:left;box-sizing:border-box;
+                i{display: block;float: left;width: 16px;height: 16px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -74px -250px;margin: 14px 10px 0 15px ;}
+            }
+            .check.checked i{
+                background-position: -108px -250px;
+            }
+            .goods{width: 267px;text-align: left;}
+            .price{width: 95px;}
+            .num{width: 135px;}
+            .weight{width: 80px;}
+            .allprice{width: 140px;}
+            .del{width: 120px;}
+        }
+        .car-goods{
+            margin-top: 25px;
+            ul{
+                li{
+                    .top{
+                        font: 12px/26px "";height:26px;
+                        i{display: block;float: left;width: 16px;height: 16px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -108px -250px;margin: 5px 10px 0 15px ;}
+                        .name{
+                            color: #4a82b1;
+                            float: left;
+                        }
+                        .chat{width: 16px;height: 15px;margin-left: 10px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -699px -200px;float: left;display: block;margin-top: 5px;}
+                    }
+                    .tbody{
+                        padding: 20px 15px;border-top:1px solid #ddd;border-bottom:1px solid #ddd;background:#f3fbfa;margin-top: 10px;text-align:center;font:13px/20px "";
+                        .check{float: left;
+                            width: 144px;
+                            i{display: block;float: left;width: 16px;height: 16px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -74px -250px;margin: 32px 10px 0 0 ;}
+                            img{height:80px;}
+                        }
+                        .check.checked i{
+                            background-position: -108px -250px;
+                        }
+                        .goods{float: left;width: 267px;text-align: left;}
+                        .price{float: left;width: 95px;}
+                        .num{
+                            float: left;width: 135px;position: relative;
+                            input{
+                                width: 37px;height: 22px;border: 1px solid #ddd;border-right: 0;border-left: 0;
+                                text-align: center;
+                            }
+                            a{position: absolute;width: 22px;height: 22px;border: 1px solid #ddd;top: 0;}
+                            a:first-child{left: 25px;}
+                            a:last-child{right: 25px;}
+                            a::before{
+                                content: "";width: 10px;height: 2px;position: absolute;top: 50%;left: 50%;
+                                margin-top: -1px;margin-left: -5px;background: #c5c5c5;
+                            }
+                            a:last-child::after{
+                                content: "";width: 2px;height: 10px;position: absolute;top: 50%;left: 50%;
+                                margin-top: -5px;margin-left: -1px;background: #c5c5c5;
+                            }
+                        }
+                        .weight{float: left;width: 80px;}
+                        .allprice{float: left;width: 140px;}
+                        .del{float: left;width: 105px;}
+                        .del a{cursor: pointer;}
+                    }
+                }
+            }
+        }
+        .car-finish{
+            margin-top: 40px;border: 1px solid #ddd;height: 63px;font:13px/63px "";
+            .check{
+                width: 260px;float: left;
+                i{display: block;float: left;width: 16px;height: 16px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -74px -250px;margin: 25px 10px 0 15px ;}
+            }
+            .check.checked i{
+                background-position: -108px -250px;
+            }
+            .info{
+                width: 580px;height: 100%;float: left;
+                .info-price{
+                    float: right;display: flex;
+                    span{font-size: 20px;color: #00bebf;}
+                }
+            }
+            .btn{
+                width:140px;float: right;text-align:center;
+                a{color: #fff;background: #00bebf;display: block;font: 20px/65px "";position: relative;top: -1px;right:-1px;}
+            }
+        }
+    }
+}

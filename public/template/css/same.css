@@ -1,0 +1,136 @@
+.margin{width: 1210px;margin: 0 auto;}
+
+#header{}
+#header .top{height: 40px;border-bottom: 4px solid #4ed6d1;background: #505050;}
+#header .top .margin{display: flex;justify-content: space-between;}
+#header .top .top-l{display: flex;}
+#header .top .top-l .slidebox{display: flex;}
+#header .top .top-l .slidebox li{margin-right: 20px;display: flex;}
+#header .top .top-l .slidebox li a::after{content: "";display: block;width:9px;height:6px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png);background-position: -72px -50px;margin-left: 10px;}
+#header .top .top-l a{color:#c5c5c5;font: 12px/40px "";cursor: default;display: flex;align-items: center;}
+#header .top .top-l a span{font:14px/40px "";color: #ccc;opacity: 0.3;margin-right: 5px;}
+#header .top .book{margin-right: 20px;}
+#header .top .book a{cursor: pointer;}
+#header .top .free{margin: 0 20px;}
+#header .top .free a{cursor: pointer;}
+
+#header .top .top-r{display: flex;font: 12px/40px "";color:#c5c5c5;}
+#header .top .top-r a{color:#c5c5c5;}
+#header .top .top-r .user{display: flex;}
+#header .top .top-r .user a{margin-right: 20px;}
+#header .top .top-r .user span{margin-right: 20px;}
+#header .top .top-r .dd{margin-right: 20px;}
+#header .top .top-r .me{margin-right: 20px;}
+#header .top .top-r .me a{display: flex;align-items: center;}
+#header .top .top-r .me a::after{content: "";display: block;width:9px;height:6px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png);background-position: -72px -50px;margin-left: 10px;}
+
+#header .top .top-r .carbox{display: flex;align-items: center;margin-left: 10px;cursor: pointer;}
+#header .top .top-r .carbox a{display:flex;}
+#header .top .top-r .carbox a .car{width: 22px;height: 24px;margin: 0 5px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png);background-position: -137px 0;}
+#header .top .top-r .carbox a .num{width: 38px;height: 15px;padding: 3px 0;border-radius: 4px;background: #5fd9da;position: relative;left:5px;text-align: center;font: 14px/15px "";color: #fff;}
+#header .top .top-r .carbox a .num::before{content:"";border: 5px solid transparent;border-right: 5px solid #5fd9da;position: absolute;left: -9px;top:6px;}
+
+#header .hd{display: flex;padding-top: 35px;}
+#header .hd .logo{display: block;width: 198px;height: 74px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/logo-hd.png)}
+#header .hd .search{display: flex;border: 2px solid #4ed6d1;height:34px;margin: 20px 0 0 54px;}
+#header .hd .search input:nth-child(1){height:34px;border: none;width: 376px;padding: 0 10px;outline: none;}
+#header .hd .search input:nth-child(2){border:none;height: 34px;width: 34px;background: #4ed6d1 url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -276px 10px;outline: none;cursor: pointer;}
+
+#header .hd ul{display: flex;margin:25px 0 0 29px;}
+#header .hd ul li{margin-left: 30px;}
+#header .hd ul li a{font:14px/14px "";color:#777;display: flex;align-items: center;}
+#header .hd ul li a span{width:27px;height: 30px;margin-right: 10px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png);position: relative;}
+#header .hd ul li a span.hw{background-position: 0 -100px;}
+#header .hd ul li a span.gc{background-position: -42px -100px;width: 22px;top: 4px;}
+#header .hd ul li a span.yc{background-position: -81px -100px;width: 25px;top: 2px;}
+#header .hd ul li a span.gn{background-position: -121px -100px;width: 37px;top: 3px;}
+
+#header .nav{margin-top: 40px;}
+#header .nav .nav-l{float: left;width: 168px;height: 60px;position: relative;}
+#header .nav .nav-l .nav-slide{font: 16px/60px "";background: #92a9b9;height: 100%;color: #fff;text-indent: 32px;cursor: pointer;position: relative;}
+#header .nav .nav-l .nav-slide::after{content: "";background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -74px -300px;width: 14px;height: 11px;position: absolute;right: 33px;top: 24px;}
+#header .nav .nav-l .nav-slide-box{background: rgba(103,117,130,0.99);position: absolute;height: 340px;}
+#header .nav .nav-l .nav-slide-box>li{width: 168px;height: 54px;}
+#header .nav .nav-l .nav-slide-box>li:hover{background: #43d6d1;}
+#header .nav .nav-l .nav-slide-box>li .slide-title{position: relative;}
+#header .nav .nav-l .nav-slide-box>li .slide-title a{display: block;width: 100%;height: 100%;font: 14px/54px "";text-indent: 32px;color: #fff;letter-spacing: 2px;}
+#header .nav .nav-l .nav-slide-box>li .slide-title a::after{content: "";position: absolute;right: 20px;top: 21px;width: 6px;height: 12px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -151px -300px;}
+#header .nav .nav-l .nav-slide-box>li .slide-title:hover a::after{background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -114px -300px;}
+
+#header .nav .nav-l .nav-slide-box>li .slide-cont{width:614px;height: 340px;background: #fff;top: 0;left:168px;z-index: 100;position: absolute;box-sizing: border-box;border: 1px solid #ccc;display: none;}
+#header .nav .nav-l .nav-slide-box>li .slide-cont ul{padding: 30px 0 0 30px;}
+#header .nav .nav-l .nav-slide-box>li .slide-cont ul li{width: 190px;height: 65px;float: left;margin-bottom: 40px;}
+#header .nav .nav-l .nav-slide-box>li .slide-cont ul li a{width: 100%;height: 100%;display: block;}
+#header .nav .nav-l .nav-slide-box>li .slide-cont ul li a img{width: 65px;height: 65px;float: left;}
+#header .nav .nav-l .nav-slide-box>li .slide-cont ul li a span{margin-left: 20px;font: 15px/65px "";width: 6em;height: 65px;float: left;}
+
+
+
+#header .nav .nav-country{float: left;width: 880px;height: 56px;margin-left: 20px;}
+#header .nav .nav-country ul{margin-left: -43px;}
+#header .nav .nav-country ul li{float: left;margin:0 0 6px 43px;font: 14px/22px Arial;min-width: 48px;letter-spacing: 1px;}
+#header .nav .nav-country ul li:nth-child(1){width:60px;white-space: nowrap;}
+#header .nav .nav-country ul li a{color: #222;}
+#header .nav .nav-country ul li a:hover{color: #00bebf;}
+
+#header .nav .nav-r{float: right;width: 92px;margin-top: -6px;}
+#header .nav .nav-r a{display: flex;font: 14px/24px "";color: #222;}
+#header .nav .nav-r a:hover{color: #00bebf;}
+#header .nav .nav-r span{display: block;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png);width: 24px;height: 26px;margin-right: 8px;}
+#header .nav .nav-r .nav-r-article span{background-position: -762px -250px;}
+#header .nav .nav-r .nav-r-shop{margin-top:8px;}
+#header .nav .nav-r .nav-r-shop span{background-position: -762px -200px;}
+
+
+
+#footer{}
+#footer .footer-t{background: #f1f1ef;margin-top: 60px;}
+#footer .footer-t ul{height: 130px;padding: 35px 0 20px 0;}
+#footer .footer-t ul li{float: left;width: 250px;margin-left: 70px;}
+#footer .footer-t ul li:nth-child(1){margin: 0;}
+#footer .footer-t ul li a{display: block;text-align: center;}
+#footer .footer-t ul li a h4{margin-top: 15px;font: 18px/30px "";color:#222;}
+#footer .footer-t ul li a p{font:14px/28px "";color: #777;}
+#footer .footer-t ul li a i{display: block;width: 52px;height: 45px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) 0 -150px;margin: 0 auto;}
+
+#footer .footer-b{padding:40px 0 20px 0;background: #474747;}
+#footer .footer-b ul{margin-right:66px;width: 135px;float: left;}
+#footer .footer-b ul li{}
+#footer .footer-b ul li h4{font:16px/32px "";color: #fff;}
+#footer .footer-b ul li a{font: 13px/32px "";color: #c5c5c5;}
+#footer .footer-b .help-side{float: right;width: 240px;display: flex;}
+#footer .footer-b .help-side p{padding-top: 10px;font: 12px/20px "";text-align: center;color: #c5c5c5;}
+#footer .footer-b .help-side .side-wx{margin-left: 40px;}
+
+#footer .ft-about{margin-top: 15px;color: #c5c5c5;}
+#footer .ft-about .ft-about-l{float: left;}
+#footer .ft-about .ft-about-l .logo{display: block;width: 100px;height: 40px;margin-right: 20px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -179px -100px;}
+#footer .ft-about .ft-about-l p{font: 12px/12px "";margin-top: 16px;}
+
+
+#footer .ft-about .ft-about-r{float: right;margin-top: 17px;font: 12px/30px "";}
+#footer .ft-about .ft-about-r .ft-a-t{}
+#footer .ft-about .ft-about-r .ft-a-t a{color: #c5c5c5;}
+#footer .ft-about .ft-about-r .ft-a-t p{float:left;}
+#footer .ft-about .ft-about-r .ft-a-t p a{padding-left: 30px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/copy-hubeian-footer.png) no-repeat left;display: block;float: left;}
+#footer .ft-about .ft-about-r .ft-a-t p span{margin-left: 30px;}
+
+
+#footer .ft-about .ft-about-r .ft-a-t .join{float:left;margin-left: 20px;}
+#footer .ft-about .ft-about-r .ft-a-t .join a{}
+#footer .ft-about .ft-about-r .ft-a-t .join span{padding: 0 15px;}
+#footer .ft-about .ft-about-r .ft-a-t .phone{float:left;margin-left: 15px;}
+#footer .ft-about .ft-about-r .ft-a-t .phone i{width: 12px; height: 16px;display: inline-block;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -103px 0px;float: left;margin: 10px 5px  0 0 ;}
+
+#footer .ft-about .ft-about-r .ft-a-b{}
+#footer .ft-about .ft-about-r .ft-a-b p{float: left;}
+#footer .ft-about .ft-about-r .ft-a-b span{float: left;padding: 0 15px;}
+
+#footer .ft-links{margin-top: 10px;padding-top: 10px;border-top: 1px solid #5a5a5a;color: #777;font: 12px/30px "";}
+#footer .ft-links h4{float: left;margin-right: 10px;}
+#footer .ft-links .links-r{float: left;width: 1140px;}
+#footer .ft-links .links-r a{color: #777;}
+#footer .ft-links .links-r span{padding: 0 12px;}
+
+
+

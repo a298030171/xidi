@@ -1,0 +1,47 @@
+body{background: #f1f1ef;}
+
+#cont{background: url(https://static.xidibuy.com/static/passport/images/1.0.0/login_bg.jpg) no-repeat top center;padding-top: 70px;min-height: 600px;}
+#cont .login{width: 360px;min-height: 442px;padding: 0 70px 40px;margin: 0 auto;background: #fff;}
+#cont .login .normal{}
+#cont .login .normal .login-logo{text-align: center;padding: 40px 0 30px 0;}
+#cont .login .normal .login-check{cursor: pointer;font: 16px/16px "";color: #777;}
+#cont .login .normal .login-check .checkbox{background: url(https://static.xidibuy.com/static/passport/images/1.0.0/loginSignup-icon.png) -80px -40px;width: 16px;height: 16px;float: left;margin-right: 10px;}
+#cont .login .normal .login-check .checkbox.checked{background-position: -120px -40px;}
+
+#cont .login .normal .login-check .login-normal{float: left;}
+#cont .login .normal .login-check .login-tel{float: right;}
+
+#cont .login .normal .login-error{height: 35px;font: 12px/35px "";color: #f00;text-align: left;}
+#cont .login .normal .login-form{}
+#cont .login .normal .login-form .form-normal{}
+#cont .login .normal .login-form .form-normal input{width: 100%;height: 50px;border: 1px solid #ddd;box-sizing: border-box;padding: 14px 10px 12px 42px;background: url(https://static.xidibuy.com/static/passport/images/1.0.0/login_name.png) no-repeat 10px 14px}
+#cont .login .normal .login-form .form-normal input:nth-child(3){position: relative;top: -1px;background-image: url(https://static.xidibuy.com/static/passport/images/1.0.0/login_passwd.png)}
+
+#cont .login .normal .login-remember{padding: 15px 0 30px 0;}
+#cont .login .normal .login-remember .rem-l{float: left;font: 12px/18px "";color: #222;}
+#cont .login .normal .login-remember .rem-l .check{float: left;width: 16px;height: 16px;border: 1px solid #ddd;margin-right: 10px;}
+#cont .login .normal .login-remember .rem-l .check.checked{background: url(https://static.xidibuy.com/static/passport/images/1.0.0/loginSignup-icon.png) -78px -116px;}
+
+#cont .login .normal .login-remember a{float: right;color: #4a82b1}
+
+#cont .login .normal .login-btn{margin-bottom: 20px;}
+#cont .login .normal .login-btn .btn{height: 50px;background: #4ed6d1;display: block;font: 18px/50px "";color: #fff;text-align: center;cursor: pointer;letter-spacing: 18px;border-radius: 8px;}
+
+#cont .login .normal .login-more{}
+#cont .login .normal .login-more .third{float: left;}
+#cont .login .normal .login-more .third a{width: 40px;height: 40px;display: block;float: left;background: url(https://static.xidibuy.com/static/passport/images/1.0.0/loginSignup-icon.png);margin-right: 20px;}
+#cont .login .normal .login-more .third a.wb{background-position: -80px 0;}
+#cont .login .normal .login-more .third a.wx{background-position: -160px 0;}
+
+#cont .login .normal .login-more .tosignup{float: right;font: 12px/40px "";color: #777;}
+#cont .login .normal .login-more .tosignup a{color: #4a82b1;}
+
+
+
+#footer{margin: 40px auto 0;width: 350px;height: 45px;text-align: center;color: #777;}
+#footer .footer-t{}
+#footer .footer-t a{padding: 0 14px;border-right: 1px solid #c5c5c5;font: 12px/12px "";color: #777;}
+#footer .footer-t a:last-child{border: none;}
+#footer .footer-b{margin-top: 20px;font: 12px/12px "";}
+#footer .footer-b p{float: left;}
+#footer .footer-b p:last-child{float: right;}

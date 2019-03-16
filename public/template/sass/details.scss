@@ -1,0 +1,190 @@
+#header .nav .nav-l .nav-slide-box{display: none;}
+#header .nav .nav-l:hover .nav-slide-box{display: block;z-index: 10;}
+
+#cont{
+    border-top: 1px solid #ddd;
+    .list-pos{
+        margin: 20px 0 10px 0;
+        a{margin:0 10px 10px 0;color: #222;float: left;}
+        span{margin:0 10px 10px 0;float: left;}
+        i{margin:0 10px 10px 0;position: relative;width: 10px;height: 24px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/icons.png) 0 -270px;display: block;float: left;top: -3px;z-index:-1;}
+    }
+    .detail-box{
+        .detail-main{
+            width: 880px;float: left;
+            .detail-top{
+                .detail-show{
+                    width: 500px;float: left;position: relative;
+                    .detail-show-pic{
+                        position: relative;
+                        span{
+                            width: 250px;height: 250px;position: absolute;top: 0;left: 0;display: none;
+                        }
+                        p{
+                            width:100%;height:100%;position: absolute;left:0;top:0;z-index:2;
+                        }
+                        
+                    }
+                    .detail-show-big{
+                        position: absolute;top: 0;left: 510px;z-index: 5;
+                        width: 400px;height: 400px;
+                        overflow: hidden;display: none;
+                        img{
+                            position: absolute;
+                        }
+                    }
+                    ul.imglist{
+                        margin-top: 15px;
+                        li{
+                            float: left;width: 66px;height: 66px;margin-left:10px;border:2px solid transparent;
+                            a{
+                                width: 62px;height: 62px;padding: 1px;border: 1px solid #ddd;display: block;
+                                img{height: 100%;width: 100%;}
+                            }
+                        }
+                        li:nth-child(1){margin: 0;}
+                    }
+                    .detail-share{
+                        margin-top: 40px;
+                        .love{width:16px;height: 14px;float: left;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -76px -200px;margin-right: 15px;}
+                        span{color: #ddd;font: 12px/14px "";float: left;}
+                        .share{
+                            a{background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -37px -200px;width: 19px;height: 19px;float: left;margin: 0 10px;position: relative;top: -2px;}
+                        }
+                    }
+                }
+                .detail-desc{
+                    width: 340px;margin-left:40px;float: left;
+                    .detail-desc-country{
+                        margin-bottom: 17px;height: 25px;font: 13px/25px "";
+                        img{height: 100%;margin-right: 10px;}
+                        span{margin: 3px 10px 0 0;}
+                        a{color: #4a82b1;}
+                    }
+                    h1{font:20px/30px "";}
+                    p{font: 13px/24px "";color:#777;margin-top: 12px;}
+                    .detail-desc-info{
+                        margin-top: 30px;
+                        .info-price{
+                            p{float: left;width: 118px;}
+                            span{float: left;font: 30px/40px "";color:#00bebf; }
+                        }
+                        .info-color{
+                            margin: 20px 0 20px 0;
+                            p{float: left;width: 118px;line-height: 16px;margin: 0;}
+                            ul{
+                                float: left;
+                                li{
+                                    float: left;
+                                    a{
+                                        display: block;width:44px;height:44px;border:2px solid #4ed6d1;
+                                        img{height: 100%;width: 100%;}
+                                    }
+                                }
+                            }
+                        }
+                        .info-num{
+                            margin-top: -15px;
+                            p{float: left;width: 118px;}
+                            .info-num-change{
+                                position: relative;
+                                float: left;top:14px;
+                                input{
+                                    width: 37px;height: 22px;border: 1px solid #ddd;border-right: 0;border-left: 0;
+                                    text-align: center;
+                                }
+                                a{position: absolute;width: 22px;height: 22px;border: 1px solid #ddd;top: 0;}
+                                a:first-child{left: -22px;}
+                                a:last-child{right: -22px;}
+                                a::before{
+                                    content: "";width: 10px;height: 2px;position: absolute;top: 50%;left: 50%;
+                                    margin-top: -1px;margin-left: -5px;background: #c5c5c5;
+                                }
+                                a:last-child::after{
+                                    content: "";width: 2px;height: 10px;position: absolute;top: 50%;left: 50%;
+                                    margin-top: -5px;margin-left: -1px;background: #c5c5c5;
+                                }
+                            }
+                        }
+                    }
+                    .detail-buy{
+                        margin-top: 15px;
+                        display: flex;justify-content: space-between;text-align:center;font:16px/46px "";padding-bottom:20px;border-bottom:1px dotted #ddd;
+                        .buynow{width: 162px;height: 46px;border: 1px solid #01bec0;color: #01bec0;background: #edfbfb;cursor: pointer;}
+                        .buynow:hover{background: #fff;}
+                        .addcar{width: 164px;height: 48px;background: #4ed6d1;color: #fff;cursor: pointer;}
+                        .addcar:hover{background: #00cbcc;}
+                    }
+                    .detail-tip{
+                        height: 52px;
+                        .tip-l{
+                            float: left;
+                            width: 218px;border-right: 1px dotted #ddd;margin-top:20px;
+                            p{
+                                margin: 0;height: 26px;font: 12px/26px "";
+                                display: flex;align-items:center;
+                                i{float: left;width: 20px;height: 13px;background: url(https://static.xidibuy.com/static/global/images/1.0.0/sprite_icons.png) -507px -200px;margin-right: 15px;}
+                            }
+                            P:nth-child(2){
+                                i{height:17px;background-position: -386px -200px;}
+                            }
+                        }
+                        .tip-r{
+                            float: left;width:120px;text-align:center;margin-top:20px;
+                            a{
+                                color: #4ed6d1;font: 16px/26px "";
+                            }
+                            p{
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .detail-bottom{
+
+            }
+        }
+        .detail-side{
+            width: 270px;float: right;border-left: 1px dotted #ddd;padding-left:20px;
+            .side-shop{
+                .shop-head{
+                    .head{
+                        width: 80px;height: 80px;border-radius: 50%;display: block;overflow: hidden;margin:0 auto;
+                        img{width: 100%;height: 100%;}
+                    }
+                    .title{
+                        display: block;
+                        text-align: center;
+                        margin-top: 20px;
+                    }
+                }
+                .shop-link{
+                    margin-top: 25px;display: flex;justify-content: space-between;
+                    a{width: 125px;height: 36px;text-align: center;font: 13px/36px "";box-sizing: border-box;}
+                    .inshop{color: #fff;background: #404040;}
+                    .connect{color: #222;border: 1px solid #ddd;}
+                }
+            }
+            .side-hotgoods{
+                margin-top: 30px;border-top: 1px dotted #ddd;padding-top: 25px;
+                h4{font: 16px/20px "";margin-bottom: 30px;}
+                ul{
+                    li{
+                        margin-top: 35px;
+                        .pic{
+                            float: left;margin-right: 15px;width: 114px;height: 114px;
+                            img{width: 100%;height: 100%;}
+                        }
+                        .words{
+                            float: left;width: 136px;padding:20px 0;
+                            p{font: 13px/20px "";}
+                            span{height: 16px;font: 16px/16px "";color: #00bebf;margin-top: 5px;display: block;} 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
